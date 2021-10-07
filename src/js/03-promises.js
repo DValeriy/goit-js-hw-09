@@ -1,9 +1,9 @@
 import Notiflix from 'notiflix';
 
 const nodes = {
-  formNode: document.querySelector(".form")  
+  formNode: document.querySelector(".form")
+  // btnNode: document.querySelector("button")  
 }
-
 const createPromise = (position, delay) => {  
   return new Promise((res, rej) => {      
     setTimeout(() => {
